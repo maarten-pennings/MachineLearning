@@ -2,6 +2,8 @@ numpy
 scipy
 matplotlib
 pandas
+opencv-python
+pillow
 sklearn
 imageio
 tensorflow
