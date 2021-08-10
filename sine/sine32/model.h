@@ -1,8 +1,8 @@
-// sine.c - TensorFlow lite model - 2021-08-09 23:55:45.370002
+// model.h - TensorFlow lite model - 2021-08-10 18:07:04.783644
 
-#define MODEL_ALIGN __attribute__(((aligned(4)))
+#define MODEL_ALIGN __attribute__((aligned(4)))
 
-const unsigned char sine_data[] MODEL_ALIGN = {
+const unsigned char model_data[] MODEL_ALIGN = {
     0x1C, 0x00, 0x00, 0x00, 0x54, 0x46, 0x4C, 0x33, 
     0x14, 0x00, 0x20, 0x00, 0x04, 0x00, 0x08, 0x00, 
     0x0C, 0x00, 0x10, 0x00, 0x14, 0x00, 0x00, 0x00, 
@@ -265,4 +265,4 @@ const unsigned char sine_data[] MODEL_ALIGN = {
     0x04, 0x00, 0x04, 0x00, 0x04, 0x00, 0x00, 0x00
 };
 
-unsigned int sine_len = 2080;
+unsigned int model_len = 2080;
