@@ -8,7 +8,8 @@ to make a neural network that detects the fraudulent ones.
 
 My [second project](fruitfind/fruitfind.ipynb) classifies 131 species of fruit (and vegetables and nuts).
 
-My [third project](sine/sine.ipynb) tries to predict the `sin(x)`. However, the ultimate goal is to map it to C - on an ESP8266.
+My [third project](sine/sine.ipynb) tries to predict the `sin(x)`. 
+However, the read goal is to run the model on the ESP32, a goal that is [reached](sine/sine32).
 There are two intermezzos. The [first](sine/piecewise-linear.ipynb) maps a piece-wise linear curve to a two-layer neural net.
 The [second](sine/piecewise-sine.ipynb) manually programs the neural network weights to have better prediction for sine than after training.
 

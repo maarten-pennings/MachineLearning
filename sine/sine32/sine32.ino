@@ -32,7 +32,7 @@ void loop() {
     time1 = micros();
     y2 = output[0];
     
-    Serial.printf("x=%f, sine=%f, model=%f, error=%f, us=%d\n",x,y1,y2,y2-y1,time1-time0);
+    Serial.printf("x=%f, sine=%+f, model=%+f, error=%+f, time=%d\n",x,y1,y2,y2-y1,time1-time0);
     
     delay(1000);
 }
