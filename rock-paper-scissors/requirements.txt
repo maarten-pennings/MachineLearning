@@ -1,0 +1,6 @@
+numpy
+matplotlib
+sklearn
+imageio
+tensorflow
+jupyter
