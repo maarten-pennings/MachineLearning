@@ -11,6 +11,10 @@ My [second project](fruitfind/fruitfind.ipynb) classifies 131 species of fruit (
 My [third project](sine/sine.ipynb) tries to predict the `sin(x)`. 
 However, the real goal is to run the model on the ESP32, a goal that is [reached](sine/sine32). The same sketch even runs on ESP8266, albeit slower.
 There are two intermezzos. The [first](sine/piecewise-linear.ipynb) maps a piece-wise linear curve to a two-layer neural net.
-The [second](sine/piecewise-sine.ipynb) manually programs the neural network weights to have better prediction for sine than after training.
+
+The [forth project](rock-paper-scissors/rock-paper-scissors.ipynb) is no longer to educate me.
+This implement rock-paper-scissors on an ESP32. 
+See the [ESP32-CAM](https://github.com/maarten-pennings/esp32cam/tree/main/rock-paper-scissors) project that captured the images.
+Hopefully it will have Lego Mindstorms integration.
 
 (end of doc)
