@@ -1,10 +1,10 @@
-// model.h - TensorFlow lite model - 2021-08-18 23:07:12.746579
+// rps32model.h - TensorFlow lite model - 2021-08-21 22:52:52.794332
 
-#define MODEL_LEN 37088
+#define RPS32MODEL_LEN 37088
 
-#define MODEL_ALIGN __attribute__((aligned(4)))
+#define RPS32MODEL_ALIGN __attribute__((aligned(4)))
 
-const unsigned char model_data[MODEL_LEN] MODEL_ALIGN = {
+const unsigned char rps32model_data[RPS32MODEL_LEN] RPS32MODEL_ALIGN = {
   0x1C, 0x00, 0x00, 0x00, 0x54, 0x46, 0x4C, 0x33, 
   0x14, 0x00, 0x20, 0x00, 0x04, 0x00, 0x08, 0x00, 
   0x0C, 0x00, 0x10, 0x00, 0x14, 0x00, 0x00, 0x00, 
