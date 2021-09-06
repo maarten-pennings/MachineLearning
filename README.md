@@ -14,7 +14,7 @@ However, the real goal is to run the model on the ESP32, a goal that is [reached
 There are two intermezzos. The [first](sine/piecewise-linear.ipynb) maps a piece-wise linear curve to a two-layer neural net.
 The [second](piecewise-sine.ipynb) uses that technique to hand-craft a sine predictor.
 
-The [forth project](rock-paper-scissors/rock-paper-scissors.ipynb) is no longer to educate me.
+The [fourth project](rock-paper-scissors/rock-paper-scissors.ipynb) is no longer to educate me.
 This implements rock-paper-scissors on an ESP32 with a camera connected. 
 In a supporting project, the [ESP32-CAM](https://github.com/maarten-pennings/esp32cam/tree/main/rock-paper-scissors) 
 is used to capture the images that we use for training the neural network.
