@@ -16,7 +16,7 @@ My first experiments with Machine Learning (TensorFlow in Jupyter notebook).
 - My [third project](sine/sine.ipynb) tries to predict the `sin(x)` from `x`, a network even simpler than for the credit card transactions. 
   However, the real goal is to run the model on the ESP32, a goal that is [reached](sine/sine32). The same sketch even runs on ESP8266, albeit slower.
   There are two intermezzos. The [first](sine/piecewise-linear.ipynb) maps a piece-wise linear curve to a two-layer neural net.
-  The [second](piecewise-sine.ipynb) uses that technique to hand-craft a sine predictor.
+  The [second](sine/piecewise-sine.ipynb) uses that technique to hand-craft a sine predictor.
   
   > ![sine](sine/model1.png)
 
